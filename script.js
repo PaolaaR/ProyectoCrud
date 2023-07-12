@@ -3,6 +3,7 @@ function addData(event) {
     let nombre = document.getElementById("input-nombre").value;
     let apellido = document.getElementById("input-apellido").value;
     let email = document.getElementById("input-email").value;
+
   
     let usersList;
     if (localStorage.getItem("usersList") === null) {
