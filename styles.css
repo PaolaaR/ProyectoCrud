@@ -1,0 +1,7 @@
+body{
+    background: url(wallpaper-taj-mahal.jpg) center;
+    backdrop-filter: blur(25px);
+}
+td{
+    background-color: black;
+}
