@@ -3,12 +3,7 @@ function addData(event) {
     let nombre = document.getElementById("input-nombre").value;
     let apellido = document.getElementById("input-apellido").value;
     let email = document.getElementById("input-email").value;
-
-    if (nombre === "" || apellido === "" || email === "") {
-        //alert("Por favor ingrese todos los datos");
-        return;
-    }
-    
+  
     let usersList;
     if (localStorage.getItem("usersList") === null) {
         usersList = [];
@@ -75,4 +70,17 @@ function showData() {
         }
 
     }
+
+    function deleteData(index) {
+        let usersList;
+        if (localStorage.getItem("usersList") === null) {
+            usersList = []
+        } else {
+            usersList = JSON.parse(localStorage.getItem("usersList"))
+        }
+        usersList.splice(index, 1)
+        localStorage.setItem("usersList", JSON.stringify(usersList));
+        showData();
+    }
+
 document.onload = showData();
