@@ -1,7 +1,105 @@
 body{
     background: url(wallpaper-taj-mahal.jpg) center;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(8px);
 }
-td{
-    background-color: black;
+
+h1{
+    background-color: #4c965c11;
 }
+
+.btn btn-danger{
+    margin: 0 auto;
+    display: block;
+}
+
+#edit-btn{
+    display: none;
+}
+
+#edit-btn:hover{
+    background-color: #4CAF50;
+}
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+}
+
+
+.footer-transparent {
+    padding:30px 0;
+    backdrop-filter: blur(10px);
+    border: solid 2px rgba(255,255,255,0.1);
+    color: black;
+}
+  
+  .footer-transparent h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-transparent ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-transparent ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-transparent ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-transparent .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-transparent .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-transparent .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-transparent .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-transparent .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-transparent .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-transparent .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
