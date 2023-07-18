@@ -85,16 +85,6 @@ h1{
     margin-bottom:0;
   }
   
-  .footer-transparent .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
-    .footer-transparent .item.social {
-      text-align:center;
-      margin-top:20px;
-    }
-  }
   
   .footer-transparent .copyright {
     text-align:center;
