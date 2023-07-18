@@ -113,6 +113,6 @@ function addData() {
         showData();
         }
 
-    // Carga de los datos de la pagina
+    // Carga de los datos de la página
     
     document.onload = showData();
