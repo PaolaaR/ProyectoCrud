@@ -10,7 +10,7 @@ h1{
     background-color: #c72cbf11;
     font-family:'Macondo';
     font-size: 50px;
-    text-decoration:underline rgb(54, 27, 54);
+    text-decoration:double underline rgba(54, 27, 54, 0.5);
 }
 
 .btn btn-danger{
